@@ -1,0 +1,50 @@
+.header {
+    background-color: black;
+    font-weight: 600;
+}
+
+
+hr {
+    border-color: #747474;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    column-gap: 2em;
+    padding: 2% 3%;
+}
+
+.menu {
+    display: flex;
+    column-gap: 2em;
+    
+}
+
+.menu-item {
+    list-style: none;
+    
+    
+}
+
+.link-decoration {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.link-decoration:hover {
+    border-bottom: 2px solid #747474
+}
+
+.sun {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 10s ease;
+}
+
+.sun:hover {
+    transform: rotate(360deg);
+}
